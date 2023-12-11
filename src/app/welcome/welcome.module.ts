@@ -16,8 +16,7 @@ import { FooterComponent } from '../layout/common/footer/footer.component';
     LoginComponent,
     RegisterComponent,
     WelcomeComponent,
-    HeaderComponent,
-    FooterComponent
+    HeaderComponent
   ],
   imports: [
     CommonModule,
