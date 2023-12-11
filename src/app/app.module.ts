@@ -15,7 +15,7 @@ import { FooterComponent } from './layout/common/footer/footer.component';
     BrowserModule,
     AppRoutingModule,
     WelcomeModule,
-    DashboardModule
+    DashboardModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

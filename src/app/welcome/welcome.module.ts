@@ -6,6 +6,7 @@ import { RegisterComponent } from './register/register.component';
 import { WelcomeRoutingModule } from './welcome-routing.module';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { HeaderComponent } from '../layout/home/header/header.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 
@@ -19,7 +20,8 @@ import { HeaderComponent } from '../layout/home/header/header.component';
   ],
   imports: [
     CommonModule,
-    WelcomeRoutingModule
+    WelcomeRoutingModule,
+    ReactiveFormsModule
   ]
 })
 export class WelcomeModule { }
