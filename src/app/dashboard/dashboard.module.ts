@@ -14,8 +14,7 @@ import { DashboardRoutingModule } from './dashboard-routing.module';
     HomeComponent,
     ExercisesComponent,
     MainComponent,
-    HeaderComponent,
-    FooterComponent
+    
   ],
   imports: [
     CommonModule,
