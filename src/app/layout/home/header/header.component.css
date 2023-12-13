@@ -1,0 +1,15 @@
+.logo{
+    height: 100px;
+    margin-top: 10px;
+}
+.upper_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.upper_page1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px;
+}

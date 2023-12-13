@@ -1,10 +1,15 @@
+<h3 routerLink="/">Retour</h3>
 
 <h1 class="main_title">Connexion</h1>
 
-<form class="log_in_form" action="/log_in_form" method="post">
-    <input type="text" id="id" name="id" placeholder="Identifiant" required>
+<form class="log_in_form" [formGroup]="loginForm">
+    <div class="form-group">
+        <input type="text" formControlName="login" class="form-control p-4" placeholder="Identifiant" required="required" />
+        <span *ngIf="loginForm?.get('login')?.touched && loginForm?.get('login')?.invalid" style="color: red;">L'identifiant est necessaire </span>
+    </div><div class="form-group">
+        <input type="password" formControlName="password" class="form-control p-4" placeholder="Mot de passe" required="required" />
+        <span *ngIf="loginForm?.get('password')?.touched && loginForm?.get('password')?.invalid" style="color: red;">Le mot de passe est requis</span>
+    </div>
+    <button type="button" (click)="submitLoginForm()">Envoyer</button>
 
-    <input type="password" id="password" name="password" placeholder="Mot de passe" required>
-
-    <input type="submit" value="Valider" class="log_in_form_submit">
 </form>

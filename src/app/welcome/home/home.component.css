@@ -1,0 +1,28 @@
+.work{
+    font-size: 6em;
+    color: rgb(221, 0, 49);
+}
+.improve{
+    font-size: 6em;
+    color: rgb(25, 118, 210);
+}
+.middle_page{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+}
+.button_middle{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 200px;
+    margin: 100px 30px;
+}
+.button_middle1{
+    background-color: rgb(221, 0, 49);
+    color: white;
+    border: none;
+    padding: 20px 50px;
+    margin: 20px 100px;
+    font-weight: bold;
+    text-decoration: none;
+}

@@ -1,0 +1,14 @@
+footer{
+    margin-top: auto;
+    height: 50px;
+    background-color: rgb(25, 118, 210);
+    padding: 10px;
+}
+.footer{
+    display: block;
+    text-align: center;
+}
+.img_footer{
+    height: 50px;
+    margin: 0 80px;
+}

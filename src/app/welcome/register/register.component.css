@@ -1,0 +1,24 @@
+.registration_form{
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 60px;
+    position: relative;
+    text-align: left;
+}
+
+.registration_form input{
+    width: 100%;
+    padding: 20px; /* Ajuste cette valeur pour l'espacement à l'intérieur du champ */
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+.registration_form_submit{
+    border: none;
+    background-color: rgb(221, 0, 49);
+    color: white;
+    max-width: 20%;
+    margin-left: auto;
+   display: block;
+   margin-top: 10px;
+}

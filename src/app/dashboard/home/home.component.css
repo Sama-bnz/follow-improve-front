@@ -1,0 +1,13 @@
+.select_road{
+    display: flex;
+    justify-content: space-between;
+}
+.select_road a{
+    margin: 0 200px;
+}
+.select_road img{
+    height: 500px;
+}
+.exo{
+    height: 100px;
+}
